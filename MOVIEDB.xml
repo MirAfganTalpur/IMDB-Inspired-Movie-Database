@@ -1,0 +1,145 @@
+<?xml version = "1.0" standalone = "no"?>
+
+<!DOCTYPE MOVIEDB SYSTEM "MOVIEDB.dtd">
+
+<MOVIEDB>
+  <MOVIES>
+    <MOVIE movie_id="m1" address_id="l2">
+        <MOVIE_TITLE>A Goofy Movie</MOVIE_TITLE>
+        <RELEASE_DATE>1995-04-07</RELEASE_DATE>
+        <BUDGET>3000000</BUDGET>
+        <GROSS>35300000</GROSS>
+    </MOVIE>
+    <MOVIE movie_id="m2" address_id="l3">
+        <MOVIE_TITLE>Moana</MOVIE_TITLE>
+        <RELEASE_DATE>2016-11-23</RELEASE_DATE>
+        <BUDGET>150000000</BUDGET>
+        <GROSS>643300000</GROSS>
+    </MOVIE>
+    <MOVIE movie_id="m3" address_id="l2">
+        <MOVIE_TITLE>Fast 5</MOVIE_TITLE>
+        <RELEASE_DATE>2011-04-15</RELEASE_DATE>
+        <BUDGET>125000000</BUDGET>
+        <GROSS>626100000</GROSS>
+    </MOVIE>
+    <MOVIE movie_id="m4" address_id="l4">
+        <MOVIE_TITLE>The Lion King</MOVIE_TITLE>
+        <RELEASE_DATE>2019-07-01</RELEASE_DATE>
+        <BUDGET>300000000</BUDGET>
+    </MOVIE>
+    <MOVIE movie_id="m5"  address_id="l5">
+        <MOVIE_TITLE>Our Father's Sins</MOVIE_TITLE>
+        <RELEASE_DATE>2019-02-01</RELEASE_DATE>
+        <BUDGET>250000000</BUDGET>
+    </MOVIE>
+  </MOVIES>
+
+  <LOCATIONS>
+    <LOCATION address_id="l1">
+      <CITY>Ventura</CITY>
+      <STATE>California</STATE>
+      <COUNTRY>United States</COUNTRY>
+    </LOCATION>
+    <LOCATION address_id="l2">
+      <CITY>Los Angeles</CITY>
+      <STATE>California</STATE>
+      <COUNTRY>United States</COUNTRY>
+    </LOCATION>
+    <LOCATION address_id="l3">
+      <CITY>New York CITY</CITY>
+      <STATE>New York</STATE>
+      <COUNTRY>United States</COUNTRY>
+    </LOCATION>
+    <LOCATION address_id="l4">
+      <CITY>Vancouver</CITY>
+      <STATE>British Columbia</STATE>
+      <COUNTRY>Canada</COUNTRY>
+    </LOCATION>
+    <LOCATION address_id="l5">
+      <CITY>Toronto</CITY>
+      <STATE>Ontario</STATE>
+      <COUNTRY>Canada</COUNTRY>
+    </LOCATION>
+  </LOCATIONS>
+
+  <PERSONS>
+    <PERSON country_code_national_id="US-1" address_id="l1">
+      <FIRST_NAME>Kyle</FIRST_NAME>
+      <LAST_NAME>Harvey</LAST_NAME>
+      <DATE_OF_BIRTH>1993-05-18</DATE_OF_BIRTH>
+      <EYE_COLOUR>Brown</EYE_COLOUR>
+    </PERSON>
+    <PERSON country_code_national_id="US-2" address_id="l2">
+      <FIRST_NAME>Kevin</FIRST_NAME>
+      <LAST_NAME>Lima</LAST_NAME>
+      <DATE_OF_BIRTH>1962-06-12</DATE_OF_BIRTH>
+      <EYE_COLOUR>Blue</EYE_COLOUR>
+    </PERSON>
+    <PERSON country_code_national_id="US-3" address_id="l2">
+      <FIRST_NAME>Dwayne</FIRST_NAME>
+      <LAST_NAME>Johnson</LAST_NAME>
+      <DATE_OF_BIRTH>1972-05-02</DATE_OF_BIRTH>
+      <EYE_COLOUR>Brown</EYE_COLOUR>
+    </PERSON>
+    <PERSON country_code_national_id="US-4" address_id="l2">
+      <FIRST_NAME>Matt</FIRST_NAME>
+      <LAST_NAME>Reeves</LAST_NAME>
+      <DATE_OF_BIRTH>1964-07-04</DATE_OF_BIRTH>
+      <EYE_COLOUR>Green</EYE_COLOUR>
+    </PERSON>
+    <PERSON country_code_national_id="US-5" address_id="l3">
+      <FIRST_NAME>Mark</FIRST_NAME>
+      <LAST_NAME>Sinclair</LAST_NAME>
+      <DATE_OF_BIRTH>1967-07-18</DATE_OF_BIRTH>
+      <EYE_COLOUR>Brown</EYE_COLOUR>
+    </PERSON>
+    <PERSON country_code_national_id="US-6" address_id="l2">
+      <FIRST_NAME>Donald</FIRST_NAME>
+      <LAST_NAME>Glover</LAST_NAME>
+      <DATE_OF_BIRTH>1983-09-25</DATE_OF_BIRTH>
+      <EYE_COLOUR>Brown</EYE_COLOUR>
+    </PERSON>
+    <PERSON country_code_national_id="CA-1" address_id="l5">
+      <FIRST_NAME>Afgan</FIRST_NAME>
+      <LAST_NAME>Talpur</LAST_NAME>
+      <DATE_OF_BIRTH>1990-01-01</DATE_OF_BIRTH>
+      <EYE_COLOUR>Brown</EYE_COLOUR>
+    </PERSON>
+  </PERSONS>
+
+  <ACTORS>
+    <ACTOR actor_id="a1" address_id="l1" country_code_national_id="US-1" movie_id="m1">
+      <PERFORMING_NAME>SuperDuperKyle</PERFORMING_NAME>
+    </ACTOR>
+    <ACTOR actor_id="a2" address_id="l2" country_code_national_id="US-3" movie_id="m2 m3">
+      <PERFORMING_NAME>The Rock</PERFORMING_NAME>
+    </ACTOR>
+    <ACTOR actor_id="a3" address_id="l3" country_code_national_id="US-4" movie_id="m3">
+      <PERFORMING_NAME>Vin Diesel</PERFORMING_NAME>
+    </ACTOR>
+    <ACTOR actor_id="a4" address_id="l2" country_code_national_id="US-6" movie_id="m4">
+      <PERFORMING_NAME>Childish Gambino</PERFORMING_NAME>
+    </ACTOR>
+    <ACTOR actor_id="a5" address_id="l5" country_code_national_id="CA-1" movie_id="m5">
+      <PERFORMING_NAME>Gan</PERFORMING_NAME>
+    </ACTOR>
+  </ACTORS>
+
+  <DIRECTORS>
+    <DIRECTOR director_id="d1" address_id="l2" country_code_national_id="US-2" movie_id="m1 m2">
+      <NUMBER_OF_FILMS_DIRECTED>4</NUMBER_OF_FILMS_DIRECTED>
+    </DIRECTOR>
+    <DIRECTOR director_id="d2" address_id="l2" country_code_national_id="US-3" movie_id="m3">
+      <NUMBER_OF_FILMS_DIRECTED>1</NUMBER_OF_FILMS_DIRECTED>
+    </DIRECTOR>
+    <DIRECTOR director_id="d3" address_id="l3" country_code_national_id="US-4">
+      <NUMBER_OF_FILMS_DIRECTED>6</NUMBER_OF_FILMS_DIRECTED>
+    </DIRECTOR>
+    <DIRECTOR director_id="d4" address_id="l2" country_code_national_id="US-6" movie_id="m4">
+      <NUMBER_OF_FILMS_DIRECTED>2</NUMBER_OF_FILMS_DIRECTED>
+    </DIRECTOR>
+    <DIRECTOR director_id="d5" address_id="l5" country_code_national_id="CA-1" movie_id="m5">
+      <NUMBER_OF_FILMS_DIRECTED>5</NUMBER_OF_FILMS_DIRECTED>
+    </DIRECTOR>
+  </DIRECTORS>
+</MOVIEDB>
